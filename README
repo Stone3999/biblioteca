@@ -1,3 +1,15 @@
-QUE ARQUITECTURA USÉ, QUE PATRONES USÉ Y DONDEEEEE
+Este es el backend y frontend para la tarea de la biblioteca. 
+Es una arquitectura Cliente-Servidor. 
+El front está en Angular y el back en NestJS. Se comunican por HTTP y ya tienen los CORS habilitados para que no truene.
 
-SI USÉ ALGUN PATRÓN ADICIONAL, ESCRIBIRLO AQUÍ
+Patrones que usé y onde tan:
+
+Iterator (Comportamiento): Está en backend/src/biblioteca/patrones/iterator/. Lo usé para recorrer la lista de libros sin usar un simple ciclo manual, separando la lógica del recorrido de la colección.
+
+Interpreter (Comportamiento): Está en backend/src/biblioteca/patrones/interpreter/. Sirve para que el buscador entienda comandos y sepa qué filtrar.
+
+Cómo correr esta madre ajkKJAK:
+
+Back: Entras a la carpeta backend, tiras un "npm install" y luego "npm run start:dev". Corre en el puerto 3000.
+
+Front: Entras a frontend, tiras "npm install" y luego "ng serve". Se ve en el puerto 4200.
